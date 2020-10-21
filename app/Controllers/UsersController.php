@@ -10,6 +10,8 @@ class UsersController
             'email' => $email,
             'password' => password_hash($password, PASSWORD_ARGON2I)
         ]);
+
+        return $user;
     }
 }
 
