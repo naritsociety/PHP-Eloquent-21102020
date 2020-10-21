@@ -1,7 +1,9 @@
 <?php
 require 'start.php';
+use Controllers\UsersController;
 
+$user = UsersController::create_user("narit", "narit@gmail.com", "maddog1234");
 
-echo "Hello Modern PHP";
+print_r($user);
 
  ?>

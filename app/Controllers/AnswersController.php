@@ -1,8 +1,9 @@
 <?php
 namespace Controllers;
 
-class QuestionsController
+class AnswersController
 {
     
 }
+
  ?>
